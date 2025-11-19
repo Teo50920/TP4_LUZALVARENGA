@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <title>Rick & Morty — TP4</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="../statics/styles.css" />
+</head>
+<body>
+    <div class="page">
+        <div class="glass">
+            <a href="index.html" class="btn" style="float:right; margin-top:-8px;">🏠 Inicio</a>
+            <h2>Rick & Morty API</h2>
+            <p style="color:var(--muted)">Busca por ID (ej: 1) o por nombre (ej: rick, morty smith)</p>
+
+            <div class="field-row">
+                <input type="text" id="idRick" placeholder="Ej: 1 o rick" />
+                <button class="btn" onclick="buscarRick()">🔎 Buscar</button>
+            </div>
+
+            <div id="resultado" class="result"></div>
+        </div>
+    </div>
+
+    <script src="../js/rick.js"></script>
+</body>
+</html>
+
