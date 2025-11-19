@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <title>TP4 – Proyecto APIs (Glassmorphism)</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="statics/styles.css" />
+</head>
+<body>
+    <h2 id="bienvenida" class="fade-in">¡Bienvenido/a al Proyecto de APIs!</h2>
+
+    <div id="nombreBox" class="glass-box fade-in">
+        <p>Usuario: <span id="usuarioNombre"></span></p>
+    </div>
+
+    <div class="page">
+        <div class="header glass">
+            <div class="title-block">
+                <h1>TP4 — Proyecto APIs</h1>
+                <p class="subtitle">Colección de clientes ligeros conectados a APIs públicas</p>
+            </div>
+            <div style="text-align:right;">
+                <div class="badge">Realizado por</div>
+                <div style="margin-top:8px; font-weight:700;">Luz Alvarenga</div>
+            </div>
+        </div>
+
+        <section class="glass">
+            <div style="display:flex; justify-content:space-between; align-items:center; gap:16px;">
+                <div>
+                    <h2 style="margin:0 0 6px 0;">Bienvenido/a!</h2>
+                    <p id="bienvenida" style="margin:0; color:var(--muted);">...</p>
+                </div>
+                <div style="text-align:right;">
+                    <div class="badge">TP4</div>
+                    <div style="font-size:12px; color:var(--muted); margin-top:6px;">Glassmorphism · Violet Accent</div>
+                </div>
+            </div>
+
+            <div class="grid-buttons" style="margin-top:18px;">
+
+                <!-- RUTAS CORREGIDAS -->
+                <a class="btn" href="templates/clima.html">🌤️ Clima</a>
+                <a class="btn" href="templates/paises.html">🌍 Países</a>
+                <a class="btn" href="templates/pokemon.html">⚡ Pokémon</a>
+                <a class="btn" href="templates/rick.html">🧪 Rick & Morty</a>
+                <a class="btn" href="templates/cripto.html">💰 Criptomonedas</a>
+                <a class="btn" href="templates/../index.html">🏠 Inicio</a>
+
+            </div>
+        </section>
+
+        <footer class="glass footer">
+            <div style="margin-top:6px;">APIs: OpenWeather, REST Countries, PokéAPI, Rick & Morty, CoinGecko</div>
+        </footer>
+    </div>
+
+    <script src="js/script_bienvenida.js"></script>
+</body>
+</html>
